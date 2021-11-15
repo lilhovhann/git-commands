@@ -45,3 +45,12 @@ List all remote repositories and their URLs
 ```bash
 git remote -v
 ```
+
+
+Cherry pick the commit as the new HEAD of the commit history
+```bash
+git checkout feature-user-location
+```
+```bash
+git cherry-pick kj2342134sdf090093f0sdgasdf99sdfo992mmmf9921231
+```
