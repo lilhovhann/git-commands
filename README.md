@@ -59,5 +59,5 @@ Commits aren’t copied when cherry picking, they are cherry picked. The changes
 
 ## Set HEAD to the previous commit and leave changes from the undone commit in the stage/index.
 ```bash
-git reset –soft HEAD
+git reset –-soft HEAD
 ```
