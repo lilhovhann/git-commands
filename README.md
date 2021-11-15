@@ -86,3 +86,7 @@ git reset –hard origin/master
 git --amend
 ```
 
+## Undo git merge
+
+git merge --abort
+
