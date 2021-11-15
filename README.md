@@ -87,6 +87,7 @@ git --amend
 ```
 
 ## Undo git merge
-
+```bash
 git merge --abort
+```
 
