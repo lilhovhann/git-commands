@@ -1,0 +1,32 @@
+# Git cheet sheet
+
+Here you can find the common git commands and use cases.
+
+## Check git version
+
+```bash
+git –version
+```
+
+## Connect local repository to remote one.
+
+```bash
+git remote add new
+```
+or
+```bash
+git remote add origin
+```
+
+##  Reset the commit branch back before the last n commits, then squash them into a single commit
+```bash
+git reset –hard HEAD~n
+```
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
