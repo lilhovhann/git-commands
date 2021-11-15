@@ -61,3 +61,16 @@ Commits aren’t copied when cherry picking, they are cherry picked. The changes
 ```bash
 git reset –-soft HEAD
 ```
+
+
+Leave out all files in the build directory, as well as files ending with .txt or .metadata
+```bash
+#.swift
+
+build/
+
+*.txt
+
+*.metadata
+```
+A line starting with # serves as a comment. Hence # .swift does not do anything. See man gitignore.
