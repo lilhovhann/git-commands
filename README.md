@@ -5,7 +5,7 @@ Here you can find the common git commands and use cases.
 ## Check git version
 
 ```bash
-git –-version
+git --version
 ```
 
 ## Connect local repository to remote one.
@@ -20,7 +20,7 @@ git remote add origin
 
 ##  Reset the commit branch back before the last n commits, then squash them into a single commit
 ```bash
-git reset –hard HEAD~n
+git reset --hard HEAD~n
 ```
 
 ## Contributing
