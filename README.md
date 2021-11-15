@@ -5,7 +5,7 @@ Here you can find the common git commands and use cases.
 ## Check git version
 
 ```bash
-git –version
+git –-version
 ```
 
 ## Connect local repository to remote one.
