@@ -35,3 +35,8 @@ git checkout y
 ```bash
 git merge x
 ```
+
+Add new and updated files that are staged
+```bash
+git add -A
+```
