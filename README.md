@@ -63,7 +63,7 @@ git reset –-soft HEAD
 ```
 
 
-Leave out all files in the build directory, as well as files ending with .txt or .metadata
+## Leave out all files in the build directory, as well as files ending with .txt or .metadata
 ```bash
 #.swift
 
@@ -74,3 +74,9 @@ build/
 *.metadata
 ```
 A line starting with # serves as a comment. Hence # .swift does not do anything. See man gitignore.
+
+## Force an overwrite of your local files with the master branch
+```bash
+git fetch –all
+git reset –hard origin/master
+```
