@@ -80,3 +80,9 @@ A line starting with # serves as a comment. Hence # .swift does not do anything.
 git fetch –all
 git reset –hard origin/master
 ```
+
+## Modify previous commit
+```bash
+git --amend
+```
+
