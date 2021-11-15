@@ -77,8 +77,8 @@ A line starting with # serves as a comment. Hence # .swift does not do anything.
 
 ## Force an overwrite of your local files with the master branch
 ```bash
-git fetch –all
-git reset –hard origin/master
+git fetch --all
+git reset --hard origin/master
 ```
 
 ## Modify previous commit
