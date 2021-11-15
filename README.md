@@ -40,3 +40,8 @@ Add new and updated files that are staged
 ```bash
 git add -A
 ```
+
+List all remote repositories and their URLs
+```bash
+git remote -v
+```
