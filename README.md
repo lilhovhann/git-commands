@@ -28,7 +28,7 @@ git merge –squash HEAD@{1}
 ```
 As it is a hard reset, it will also overwrite every change in the working tree as well.git merge –squash HEAD@{1} HEAD@{1} is where the branch was just before the previous command. This command sets the state of the index to be as it would just after a merge from that commit. This whole operation could be a way to take 5 commits from a branch in which you started a new feature and squash them to a single commit, a meaningful one.
 
-Commit changes of x branch to y branch
+## Commit changes of x branch to y branch
 ```bash
 git checkout y
 ```
@@ -36,18 +36,18 @@ git checkout y
 git merge x
 ```
 
-Add new and updated files that are staged
+## Add new and updated files that are staged
 ```bash
 git add -A
 ```
 
-List all remote repositories and their URLs
+## List all remote repositories and their URLs
 ```bash
 git remote -v
 ```
 
 
-Cherry pick the commit as the new HEAD of the commit history
+## Cherry pick the commit as the new HEAD of the commit history
 ```bash
 git checkout feature-user-location
 ```
